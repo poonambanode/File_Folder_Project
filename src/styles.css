@@ -1,0 +1,28 @@
+.App {
+  font-family: sans-serif;
+}
+.folder {
+  margin-top: 6px;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  padding: 3px;
+  cursor: pointer;
+  background-color: #80808054;
+}
+.folder > span {
+  margin: 0 5px 2px 0;
+}
+.file {
+  margin-top: 5px;
+  display: flexl;
+  flex-direction: column;
+  cursor: pointer;
+}
+.input_container {
+  margin-top: 5px;
+  padding-left: 25px;
+}
+.edit_delete_container {
+  cursor: pointer;
+}
